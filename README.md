@@ -4,7 +4,8 @@ My current idea for the project is to create an audio visualizer in unity that w
 ![](Images/CubeSphere.jpg)
 
 
-
+## Research
+I will to do alot more research into fast fourier transforms and windowing to know the best way to go about the spectrum analysis. I am currently thinking of using BlackmanHarris for this, but this could change after further research.
 
 
 ## References
@@ -12,4 +13,8 @@ My current idea for the project is to create an audio visualizer in unity that w
 - Research on fast fourier transforms (FFTs) and windowing
 http://www.ni.com/white-paper/4844/en/  
 - Visualizer inspiration
-http://www.ni.com/white-paper/4844/en/
+https://videobolt.net/home/cat-music-visualizers
+- Unity API on FFTs 
+https://docs.unity3d.com/ScriptReference/FFTWindow.html
+- Post about using above functions
+https://answers.unity.com/questions/157940/getoutputdata-and-getspectrumdata-they-represent-t.html
