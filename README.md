@@ -7,9 +7,9 @@ My current idea for the project is to create an audio visualizer in unity that w
 
 
 
-##References
--Unity API on Spectrum Data https://docs.unity3d.com/ScriptReference/AudioSource.GetSpectrumData.html
--Research on fast fourier transforms (FFTs) and windowing
+## References
+- Unity API on Spectrum Data https://docs.unity3d.com/ScriptReference/AudioSource.GetSpectrumData.html
+- Research on fast fourier transforms (FFTs) and windowing
 http://www.ni.com/white-paper/4844/en/  
--Visualizer inspiration
+- Visualizer inspiration
 http://www.ni.com/white-paper/4844/en/
