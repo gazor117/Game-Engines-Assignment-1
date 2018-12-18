@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnCubes : MonoBehaviour
 {
     public GameObject sampleCubePrefab;
-    private float circleAmount = 10f;
+    private float circleAmount = 20f;
     //private GameObject[] sampleCubes = new GameObject[5120];
     List<GameObject> sampleCubes = new List<GameObject>();
     public float maxScale;
@@ -19,12 +19,30 @@ public class SpawnCubes : MonoBehaviour
             
             for (int i = 0; i < 512; i++)
             {
+                float yRotationAngleIncrement;
+                float xRotationAngleIncrement;
+                
+                if (h <= 5)
+                {
+                     yRotationAngleIncrement = (360f / 512f); //Amount each cube has to rotate around y axis
+                }
+                else
+                {
+                     yRotationAngleIncrement = -360f / 512f; //Amount each cube has to rotate around y axis
+                }
+                xRotationAngleIncrement = (360f / circleAmount * 2);
+                
+                if (yRotationAngleIncrement > 360)
+                {
+                    yRotationAngleIncrement = 0;
+                }
+
                 GameObject instanceSampleCube = (GameObject) Instantiate(sampleCubePrefab); //Instantiate Cube
                 instanceSampleCube.transform.position = this.transform.position; //Set Intial position
                 instanceSampleCube.transform.parent = this.transform; //Make cube a child of gameobject this script is attached to
-                instanceSampleCube.name = "SampleCube" + (i * (h + 512)); //Change Name of each cube
-                float yRotationAngleIncrement = 360f / 512f; //Amount each cube has to rotate around y axis
-                float xRotationAngleIncrement = 360f / circleAmount;
+                instanceSampleCube.name = "SampleCube" + (i + (h * 512)); //Change Name of each cube
+               
+                
                 this.transform.eulerAngles = new Vector3(xRotationAngleIncrement * h, -yRotationAngleIncrement * i, 0);
                 instanceSampleCube.transform.position = Vector3.forward * 100; //Set position of objects
                 //sampleCubes[i] = instanceSampleCube; //Link array to instance cubes
@@ -44,7 +62,7 @@ public class SpawnCubes : MonoBehaviour
     
                 if (sampleCubes != null)
                 {
-                    sampleCubes[i + (h * 512)].transform.localScale = new Vector3(2, (AudioAnalise.samples[i] * maxScale) + 2, 2);
+                    sampleCubes[i + (h * 512)].transform.localScale = new Vector3(0.5f, (AudioAnalise.samples[i] * maxScale) + 2, 1);
     
                 }
     
