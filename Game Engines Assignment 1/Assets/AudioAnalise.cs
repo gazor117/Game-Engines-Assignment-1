@@ -10,6 +10,7 @@ public class AudioAnalise : MonoBehaviour
     public static float[] samples = new float[512];
     public static float[] freqBands = new float[8];
     public static float[] bandBuffer = new float[8];
+    private float[] bufferDecrease = new float[8];
     
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class AudioAnalise : MonoBehaviour
     {
         GetSpectrumAudioSource();
         MakeFrequencyBands();
+        BandBuffer();
     }
 
     void GetSpectrumAudioSource()
@@ -30,6 +32,30 @@ public class AudioAnalise : MonoBehaviour
 
     }
 
+
+    void BandBuffer()
+    {
+        for (int g = 0; g < 8; g++)                                            //Loops through frequency bands checking if they're above or below buffer
+        {
+            if (freqBands[g] > bandBuffer[g])
+            {
+                bandBuffer[g] = freqBands[g];
+                bufferDecrease[g] = 0.005f;
+            }
+            
+            if (freqBands[g] < bandBuffer[g])
+            {
+                bandBuffer[g] -= bufferDecrease[g];
+                bufferDecrease[g] *= 1.2f;
+
+            }
+            
+        }
+        
+    }
+    
+    
+    
     void MakeFrequencyBands()
     {
         // 22050 / 512 = 43hrtz per sample

@@ -146,7 +146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 5
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &25917866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -541,7 +542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sampleCubePrefab: {fileID: 4212932544239258976, guid: 81330ad74358568489a06a471b147615,
     type: 3}
-  maxScale: 1000
+  maxScale: 100
 --- !u!4 &773317027
 Transform:
   m_ObjectHideFlags: 0
@@ -590,7 +591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 4
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &785880679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -697,7 +699,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 6
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &897528239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -804,7 +807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 7
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &1124621015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -911,7 +915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 1
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &1451134751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1018,7 +1023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 3
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &1452374217
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1125,7 +1131,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 2
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &1865093498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1232,7 +1239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandIndex: 0
   startscale: 1
-  scaleMultiplier: 10
+  scaleMultiplier: 5
+  useBuffer: 1
 --- !u!65 &1913066823
 BoxCollider:
   m_ObjectHideFlags: 0
