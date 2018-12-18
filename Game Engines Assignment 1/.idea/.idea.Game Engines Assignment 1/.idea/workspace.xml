@@ -18,57 +18,76 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1014" />
+          <entry key="cs" value="1870" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1014" />
+          <entry key="C#" value="1870" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="1" />
+          <entry key="cs" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="1" />
+          <entry key="C#" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/AudioAnalise.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="568">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
               <folding>
-                <marker date="1545144164035" expanded="false" signature="6:78" ph="..." />
-                <marker date="1545144164035" expanded="true" signature="163:599" ph="{...}" />
-                <marker date="1545144164035" expanded="true" signature="323:380" ph="{...}" />
-                <marker date="1545144164035" expanded="true" signature="438:485" ph="{...}" />
-                <marker date="1545144164035" expanded="true" signature="521:597" ph="{...}" />
+                <marker date="1545156430070" expanded="false" signature="6:78" ph="..." />
+                <marker date="1545156430070" expanded="true" signature="163:1682" ph="{...}" />
+                <marker date="1545156430070" expanded="true" signature="375:432" ph="{...}" />
+                <marker date="1545156430070" expanded="true" signature="490:566" ph="{...}" />
+                <marker date="1545156430070" expanded="true" signature="601:677" ph="{...}" />
+                <marker date="1545156430070" expanded="true" signature="708:1680" ph="{...}" />
+                <marker date="1545156430070" expanded="true" signature="766:1127" ph="/* 20 - 60 ... */" />
+                <marker date="1545156430070" expanded="true" signature="1188:1674" ph="{...}" />
+                <marker date="1545156430070" expanded="true" signature="1480:1590" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/FreqBandCube.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <marker date="1545156432315" expanded="false" signature="6:78" ph="..." />
+                <marker date="1545156432315" expanded="true" signature="121:542" ph="{...}" />
+                <marker date="1545156432315" expanded="true" signature="288:309" ph="{...}" />
+                <marker date="1545156432315" expanded="true" signature="367:540" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SpawnCubes.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="34" column="112" selection-start-line="34" selection-start-column="112" selection-end-line="34" selection-end-column="112" />
               <folding>
-                <marker date="1545154178470" expanded="true" signature="6:78" ph="..." />
-                <marker date="1545154178470" expanded="true" signature="119:1766" ph="{...}" />
-                <marker date="1545154178470" expanded="true" signature="323:1420" ph="{...}" />
-                <marker date="1545154178470" expanded="true" signature="367:1414" ph="{...}" />
-                <marker date="1545154178470" expanded="true" signature="1478:1764" ph="{...}" />
-                <marker date="1545154178470" expanded="true" signature="1522:1758" ph="{...}" />
-                <marker date="1545154178470" expanded="true" signature="1569:1735" ph="{...}" />
+                <marker date="1545154206148" expanded="true" signature="6:78" ph="..." />
+                <marker date="1545154206148" expanded="true" signature="119:1760" ph="{...}" />
+                <marker date="1545154206148" expanded="true" signature="323:1420" ph="{...}" />
+                <marker date="1545154206148" expanded="true" signature="367:1414" ph="{...}" />
+                <marker date="1545154206148" expanded="true" signature="1478:1758" ph="{...}" />
+                <marker date="1545154206148" expanded="true" signature="1522:1752" ph="{...}" />
+                <marker date="1545154206148" expanded="true" signature="1569:1729" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,17 +100,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/SpawnCubes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FreqBandCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AudioAnalise.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/AudioAnalise.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnCubes.cs" />
+        <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/AudioAnalise.cs" />
+        <option value="$PROJECT_DIR$/Assets/FreqBandCube.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="174" />
     <option name="y" value="68" />
     <option name="width" value="1485" />
@@ -155,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545143234046</updated>
-      <workItem from="1545143238026" duration="3106000" />
+      <workItem from="1545143238026" duration="5955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3106000" />
+    <option name="totallyTimeSpent" value="5955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -172,7 +194,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -215,32 +237,56 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/AudioAnalise.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SpawnCubes.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="510">
+          <caret line="34" column="112" selection-start-line="34" selection-start-column="112" selection-end-line="34" selection-end-column="112" />
           <folding>
-            <marker date="1545144164035" expanded="false" signature="6:78" ph="..." />
-            <marker date="1545144164035" expanded="true" signature="163:599" ph="{...}" />
-            <marker date="1545144164035" expanded="true" signature="323:380" ph="{...}" />
-            <marker date="1545144164035" expanded="true" signature="438:485" ph="{...}" />
-            <marker date="1545144164035" expanded="true" signature="521:597" ph="{...}" />
+            <marker date="1545154206148" expanded="true" signature="6:78" ph="..." />
+            <marker date="1545154206148" expanded="true" signature="119:1760" ph="{...}" />
+            <marker date="1545154206148" expanded="true" signature="323:1420" ph="{...}" />
+            <marker date="1545154206148" expanded="true" signature="367:1414" ph="{...}" />
+            <marker date="1545154206148" expanded="true" signature="1478:1758" ph="{...}" />
+            <marker date="1545154206148" expanded="true" signature="1522:1752" ph="{...}" />
+            <marker date="1545154206148" expanded="true" signature="1569:1729" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SpawnCubes.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/NewBehaviourScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FreqBandCube.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1545154178470" expanded="true" signature="6:78" ph="..." />
-            <marker date="1545154178470" expanded="true" signature="119:1766" ph="{...}" />
-            <marker date="1545154178470" expanded="true" signature="323:1420" ph="{...}" />
-            <marker date="1545154178470" expanded="true" signature="367:1414" ph="{...}" />
-            <marker date="1545154178470" expanded="true" signature="1478:1764" ph="{...}" />
-            <marker date="1545154178470" expanded="true" signature="1522:1758" ph="{...}" />
-            <marker date="1545154178470" expanded="true" signature="1569:1735" ph="{...}" />
+            <marker date="1545156432315" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545156432315" expanded="true" signature="121:542" ph="{...}" />
+            <marker date="1545156432315" expanded="true" signature="288:309" ph="{...}" />
+            <marker date="1545156432315" expanded="true" signature="367:540" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AudioAnalise.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <marker date="1545156430070" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545156430070" expanded="true" signature="163:1682" ph="{...}" />
+            <marker date="1545156430070" expanded="true" signature="375:432" ph="{...}" />
+            <marker date="1545156430070" expanded="true" signature="490:566" ph="{...}" />
+            <marker date="1545156430070" expanded="true" signature="601:677" ph="{...}" />
+            <marker date="1545156430070" expanded="true" signature="708:1680" ph="{...}" />
+            <marker date="1545156430070" expanded="true" signature="766:1127" ph="/* 20 - 60 ... */" />
+            <marker date="1545156430070" expanded="true" signature="1188:1674" ph="{...}" />
+            <marker date="1545156430070" expanded="true" signature="1480:1590" ph="{...}" />
           </folding>
         </state>
       </provider>
