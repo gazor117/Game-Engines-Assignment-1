@@ -32,7 +32,7 @@ public class SpawnCubes : MonoBehaviour
         {
             if (sampleCubes != null)
             {
-                sampleCubes[i].transform.localScale = new Vector3(1, (AudioAnalise.samples[i] * maxScale) + 2, 1);
+                sampleCubes[i].transform.localScale = new Vector3(2, (AudioAnalise.samples[i] * maxScale) + 2, 2);
                 
             }
             
