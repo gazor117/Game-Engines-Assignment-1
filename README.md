@@ -1,13 +1,13 @@
 # Audio Visualizer Sphere
 ## Creating the Sphere
-In this project I create a sphere made of cubes which react to audio. It creates the lines of cubes using a nested for loop where I also set the roatation and the position of the cubes. The initial colour of the cubes is also set here. It adds all these cubes to an ArrayList. The first loop creates one circle of cubes, then the rotation value is changed in the next loop so they are placed in a different position. We did the intial line of cubes in class and I iterated on this by creating multiple lines creating a sphere, reversing the direction of some lines and stacking multiple lines on top of each other to get the desired effect. The sphere can also rotate.
+In this project I create a sphere made of cubes which react to audio. It creates the lines of cubes using a nested for loop where I also set the roatation and the position of the cubes. The initial colour of the cubes is also set here. It adds all these cubes to an ArrayList. The first loop creates one circle of cubes, then the rotation value is changed in the next loop so they are placed in a different position. We did the intial line of cubes in class and I iterated on this by creating multiple lines creating a sphere, reversing the direction of some lines and stacking multiple lines on top of each other to get the desired effect. The sphere can also rotate based on speeds set in the editor. The starting size, amount of circles of cubes, max scale can all be set in editor.
 
 
 ## Analyzing Audio
-My AudioAnalise script gets the spectrum data of the audio, splitting it into 512 samples and adding it to the samples array. I also split these samples into a further 8 bands but mainly used the opriginal samples. Each cubes y scale was manipulated based on the corresponding sample e.g cube 124.yscale was changed using sample[124]. I learned how to get this spctrum data in class and through youtube tutorials.
+My AudioAnalise script gets the spectrum data of the audio, splitting it into 512 samples and adding it to the samples array. I also split these samples into a further 8 bands but mainly used the opriginal samples. Each cubes y scale was manipulated based on the corresponding sample e.g cube 124.yscale was changed using sample[124]. I learned how to get this spctrum data in class and through youtube tutorials. The sphere also increases in size depending which frequency band you select in editor.
 
 ## HSV Colour
-The colour of the cubes are changed based on their y scale value in update. It only does this if the sample size is above a certain amount to optimise the project.
+The colour of the cubes are changed based on their y scale value in update. It only does this if the sample size is above a certain amount to optimise the project. The colour buffer and the colour multiplier can b
 
 ## Favourite Part
 My favourite part would be how I reversed and stacked the lines of cubes to get more of an effect from the lower frequency samples as they were much more prevalent in the song I chose. Also having the colour change in update as the project would lag without the colourBuffer I added.
