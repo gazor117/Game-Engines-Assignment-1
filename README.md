@@ -9,7 +9,7 @@ My AudioAnalise script gets the spectrum data of the audio, splitting it into 51
 ## HSV Colour
 The colour of the cubes are changed based on their y scale value in update. It only does this if the sample size is above a certain amount to optimise the project.
 
-## Favourite part
+## Favourite Part
 My favourite part would be how I reversed and stacked the lines of cubes to get more of an effect from the lower frequency samples as they were much more prevalent in the song I chose. Also having the colour change in update as the project would lag without the colourBuffer I added.
 
 
