@@ -30,7 +30,7 @@ public class SpawnCubes : MonoBehaviour
                 {
                      yRotationAngleIncrement = -360f / 512f; //Amount each cube has to rotate around y axis
                 }
-                xRotationAngleIncrement = (360f / 10);
+                xRotationAngleIncrement = (360f / (circleAmount / 2));
                 
                 /*if (yRotationAngleIncrement > 360)
                 {
