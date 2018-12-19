@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="AudioAnalise.cs" t="Include" />
         <e p="FreqBandCube.cs" t="Include" />
+        <e p="RotateSphere.cs" t="Include" />
         <e p="SpawnCubes.cs" t="Include" />
       </e>
       <e p="Game Engines Assignment 1.sln" t="IncludeFlat" />
