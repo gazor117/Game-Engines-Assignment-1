@@ -68,7 +68,7 @@ public class SpawnCubes : MonoBehaviour
                 {
                     Vector3 localScale = sampleCubes[i + (h * 512)].transform.localScale;
                     //localScale.y = Mathf.Lerp(localScale.y, 1 + (AudioAnalise.samples[i] * maxScale),Time.deltaTime * 3.0f);
-                    localScale = new Vector3(0.5f,  Mathf.Lerp(localScale.y, 2 + (AudioAnalise.samples[i] * maxScale) ,Time.deltaTime * 3.0f), 1);
+                    localScale = new Vector3(startingCubeWidth,  Mathf.Lerp(localScale.y, startingCubeHeight + (AudioAnalise.samples[i] * maxScale) ,Time.deltaTime * 3.0f), startingCubeDepth);
                     sampleCubes[i + (h * 512)].transform.localScale = localScale;
 
                 }
