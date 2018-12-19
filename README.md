@@ -1,3 +1,30 @@
+# Audio Visualizer Sphere
+## Creating the Sphere
+In this project I reate a sphere made of cubes which react to audio. It creates the lines of cubes using a nested for loop where i also set the roatation and the position of the cubes. The initial colour of the cubes is also set here. It adds all these cubes to an ArrayList. 
+
+
+## Analyzing Audio
+My AudioAnalise script gets the spectrum data of the audio, splitting it into 512 samples and adding it to the samples array. I also split these samples into a further 8 bands but amily used the opriginal samples. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![YouTube](https://img.youtube.com/vi/watch?v=uoO62u4m6JY&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=uoO62u4m6JY&feature=youtu.be)
+
+
+
+
+
 # Game Engines Assignment
 ## Concept
 My current idea for the project is to create an audio visualizer in unity that will manipulate a sphere made of cubes. The main way it will do this is by getting data from the audio source using the AudioSource.GetSpectrumData method in unity. The shape, size and colour of the cubes will be changed based on the volume and frequency of the audio source. 
