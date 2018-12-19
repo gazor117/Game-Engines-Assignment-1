@@ -22,7 +22,7 @@ public class SpawnCubes : MonoBehaviour
                 float yRotationAngleIncrement;
                 float xRotationAngleIncrement;
                 
-                if (h <= 5)
+                if (h < circleAmount/2)
                 {
                      yRotationAngleIncrement = (360f / 512f); //Amount each cube has to rotate around y axis
                 }
@@ -30,12 +30,12 @@ public class SpawnCubes : MonoBehaviour
                 {
                      yRotationAngleIncrement = -360f / 512f; //Amount each cube has to rotate around y axis
                 }
-                xRotationAngleIncrement = (360f / circleAmount * 2);
+                xRotationAngleIncrement = (360f / 10);
                 
-                if (yRotationAngleIncrement > 360)
+                /*if (yRotationAngleIncrement > 360)
                 {
                     yRotationAngleIncrement = 0;
-                }
+                }*/
 
                 GameObject instanceSampleCube = (GameObject) Instantiate(sampleCubePrefab); //Instantiate Cube
                 instanceSampleCube.transform.position = this.transform.position; //Set Intial position
