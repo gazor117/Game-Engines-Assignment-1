@@ -6,7 +6,6 @@ public class SpawnCubes : MonoBehaviour
 {
     public GameObject sampleCubePrefab;
     public float circleAmount = 20f;
-    //private GameObject[] sampleCubes = new GameObject[5120];
     List<GameObject> sampleCubes = new List<GameObject>();
     public float maxScale;
     public float startingCubeWidth;
@@ -40,6 +39,7 @@ public class SpawnCubes : MonoBehaviour
                 {
                      yRotationAngleIncrement = -360f / 512f; //Amount each cube has to rotate around y axis
                 }
+                
                 float xRotationAngleIncrement = (360f / (circleAmount / 2));
                 
                 /*if (yRotationAngleIncrement > 360)
@@ -50,12 +50,15 @@ public class SpawnCubes : MonoBehaviour
                 GameObject instanceSampleCube = (GameObject) Instantiate(sampleCubePrefab); //Instantiate Cube
                 instanceSampleCube.transform.position = this.transform.position; //Set Intial position
                 instanceSampleCube.transform.parent = this.transform; //Make cube a child of gameobject this script is attached to
-                instanceSampleCube.name = "SampleCube" + (i + (h * 512)); //Change Name of each cube
+                instanceSampleCube.name = "SampleCube" + (i /*+ (h * 512)*/); //Change Name of each cube
                
                 
                 this.transform.eulerAngles = new Vector3(xRotationAngleIncrement * h, -yRotationAngleIncrement * i, 0);
+                
                 instanceSampleCube.transform.position = Vector3.forward * 100; //Set position of objects
-                //sampleCubes[i] = instanceSampleCube; //Link array to instance cubes
+               
+                
+                
                 instanceSampleCube.GetComponent<Renderer>().material.color =
                     Color.HSVToRGB((float)AudioAnalise.samples[i], 1, 1);
                 sampleCubes.Add(instanceSampleCube);
@@ -75,7 +78,6 @@ public class SpawnCubes : MonoBehaviour
                 if (sampleCubes != null)
                 {
                     Vector3 localScale = sampleCubes[i + (h * 512)].transform.localScale;
-                    //localScale.y = Mathf.Lerp(localScale.y, 1 + (AudioAnalise.samples[i] * maxScale),Time.deltaTime * 3.0f);
                     localScale = new Vector3(startingCubeWidth,  Mathf.Lerp(localScale.y, startingCubeHeight + (AudioAnalise.samples[i] * maxScale) ,Time.deltaTime * 3.0f), startingCubeDepth);
                     sampleCubes[i + (h * 512)].transform.localScale = localScale;
                     if (localScale.y > startingCubeHeight + (colorBuffer * maxScale))
