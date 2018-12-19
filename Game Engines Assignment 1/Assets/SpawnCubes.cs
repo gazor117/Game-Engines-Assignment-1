@@ -24,7 +24,7 @@ public class SpawnCubes : MonoBehaviour
             for (int i = 0; i < 512; i++)
             {
                 float yRotationAngleIncrement;
-                float xRotationAngleIncrement;
+              
                 
                 if (h < circleAmount/2)
                 {
@@ -34,7 +34,7 @@ public class SpawnCubes : MonoBehaviour
                 {
                      yRotationAngleIncrement = -360f / 512f; //Amount each cube has to rotate around y axis
                 }
-                xRotationAngleIncrement = (360f / (circleAmount / 2));
+                float xRotationAngleIncrement = (360f / (circleAmount / 2));
                 
                 /*if (yRotationAngleIncrement > 360)
                 {
@@ -76,4 +76,11 @@ public class SpawnCubes : MonoBehaviour
             }
         }
 }
+
+
+    void CubeColour()
+    {
+        
+        
+    }
 }
