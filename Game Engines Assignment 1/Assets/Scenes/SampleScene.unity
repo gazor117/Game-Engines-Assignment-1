@@ -543,11 +543,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sampleCubePrefab: {fileID: 4212932544239258976, guid: 81330ad74358568489a06a471b147615,
     type: 3}
-  circleAmount: 30
+  circleAmount: 20
   maxScale: 150
   startingCubeWidth: 1
   startingCubeHeight: 1
   startingCubeDepth: 1.5
+  colorBuffer: 0.02
 --- !u!4 &773317027
 Transform:
   m_ObjectHideFlags: 0

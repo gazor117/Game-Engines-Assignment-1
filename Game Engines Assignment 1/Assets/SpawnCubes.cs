@@ -13,6 +13,11 @@ public class SpawnCubes : MonoBehaviour
     public float startingCubeHeight;
     public float startingCubeDepth;
 
+    public float colorBuffer;
+  
+
+   
+
     
     
     // Start is called before the first frame update
@@ -50,6 +55,8 @@ public class SpawnCubes : MonoBehaviour
                 this.transform.eulerAngles = new Vector3(xRotationAngleIncrement * h, -yRotationAngleIncrement * i, 0);
                 instanceSampleCube.transform.position = Vector3.forward * 100; //Set position of objects
                 //sampleCubes[i] = instanceSampleCube; //Link array to instance cubes
+                instanceSampleCube.GetComponent<Renderer>().material.color =
+                    Color.HSVToRGB((float)AudioAnalise.samples[i], 1, 1);
                 sampleCubes.Add(instanceSampleCube);
 
             }
@@ -70,11 +77,17 @@ public class SpawnCubes : MonoBehaviour
                     //localScale.y = Mathf.Lerp(localScale.y, 1 + (AudioAnalise.samples[i] * maxScale),Time.deltaTime * 3.0f);
                     localScale = new Vector3(startingCubeWidth,  Mathf.Lerp(localScale.y, startingCubeHeight + (AudioAnalise.samples[i] * maxScale) ,Time.deltaTime * 3.0f), startingCubeDepth);
                     sampleCubes[i + (h * 512)].transform.localScale = localScale;
+                    if (localScale.y > startingCubeHeight + (colorBuffer * maxScale))
+                    sampleCubes[i + (h * 512)].GetComponent<Renderer>().material.color =
+                        Color.HSVToRGB((float)AudioAnalise.samples[i] * 2, 1, 1);
+                    
 
                 }
-    
+
+                
             }
         }
+        
 }
 
 
