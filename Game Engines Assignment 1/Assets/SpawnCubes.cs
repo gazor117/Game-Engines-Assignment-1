@@ -14,6 +14,7 @@ public class SpawnCubes : MonoBehaviour
     public float startingCubeDepth;
 
     public float colorBuffer;
+    public float colorMult;
   
 
    
@@ -79,7 +80,7 @@ public class SpawnCubes : MonoBehaviour
                     sampleCubes[i + (h * 512)].transform.localScale = localScale;
                     if (localScale.y > startingCubeHeight + (colorBuffer * maxScale))
                     sampleCubes[i + (h * 512)].GetComponent<Renderer>().material.color =
-                        Color.HSVToRGB((float)AudioAnalise.samples[i] * 2, 1, 1);
+                        Color.HSVToRGB((float)AudioAnalise.samples[i] * colorMult, 1, 1);
                     
 
                 }

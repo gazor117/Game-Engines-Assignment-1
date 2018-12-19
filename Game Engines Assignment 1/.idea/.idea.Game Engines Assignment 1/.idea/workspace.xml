@@ -21,12 +21,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3372" />
+          <entry key="cs" value="3408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3372" />
+          <entry key="C#" value="3408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,23 +87,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/SpawnCubes.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
+            <state relative-caret-position="345">
+              <caret line="82" column="81" selection-start-line="82" selection-start-column="81" selection-end-line="82" selection-end-column="81" />
               <folding>
-                <marker date="1545229600394" expanded="false" signature="6:78" ph="..." />
-                <marker date="1545229600394" expanded="true" signature="119:3682" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="576:2397" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="629:2391" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="694:2381" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="827:972" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="993:1137" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="1248:1371" ph="/* if (yRotationAngleIncrement &gt; 360) ... */" />
-                <marker date="1545229600394" expanded="true" signature="2455:3626" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="2508:3615" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="2560:3605" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="2620:3573" ph="{...}" />
-                <marker date="1545229600394" expanded="true" signature="3151:3387" ph="/* if (localScale.y &gt; startingCubeHeight + (colorBuffer * maxScale)) ... */" />
-                <marker date="1545229600394" expanded="true" signature="3650:3680" ph="{...}" />
+                <marker date="1545229990463" expanded="false" signature="6:78" ph="..." />
+                <marker date="1545229990463" expanded="true" signature="119:3572" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="604:2425" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="657:2419" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="722:2409" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="855:1000" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="1021:1165" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="1276:1399" ph="/* if (yRotationAngleIncrement &gt; 360) ... */" />
+                <marker date="1545229990463" expanded="true" signature="2483:3516" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="2536:3505" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="2588:3495" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="2648:3463" ph="{...}" />
+                <marker date="1545229990463" expanded="true" signature="3540:3570" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -131,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -199,12 +198,12 @@
       <workItem from="1545163359727" duration="412000" />
       <workItem from="1545164295994" duration="11841000" />
       <workItem from="1545224188992" duration="1862000" />
-      <workItem from="1545227119459" duration="2473000" />
+      <workItem from="1545227119459" duration="2863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25063000" />
+    <option name="totallyTimeSpent" value="25453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,23 +329,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SpawnCubes.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
+        <state relative-caret-position="345">
+          <caret line="82" column="81" selection-start-line="82" selection-start-column="81" selection-end-line="82" selection-end-column="81" />
           <folding>
-            <marker date="1545229600394" expanded="false" signature="6:78" ph="..." />
-            <marker date="1545229600394" expanded="true" signature="119:3682" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="576:2397" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="629:2391" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="694:2381" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="827:972" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="993:1137" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="1248:1371" ph="/* if (yRotationAngleIncrement &gt; 360) ... */" />
-            <marker date="1545229600394" expanded="true" signature="2455:3626" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="2508:3615" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="2560:3605" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="2620:3573" ph="{...}" />
-            <marker date="1545229600394" expanded="true" signature="3151:3387" ph="/* if (localScale.y &gt; startingCubeHeight + (colorBuffer * maxScale)) ... */" />
-            <marker date="1545229600394" expanded="true" signature="3650:3680" ph="{...}" />
+            <marker date="1545229990463" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545229990463" expanded="true" signature="119:3572" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="604:2425" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="657:2419" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="722:2409" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="855:1000" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="1021:1165" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="1276:1399" ph="/* if (yRotationAngleIncrement &gt; 360) ... */" />
+            <marker date="1545229990463" expanded="true" signature="2483:3516" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="2536:3505" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="2588:3495" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="2648:3463" ph="{...}" />
+            <marker date="1545229990463" expanded="true" signature="3540:3570" ph="{...}" />
           </folding>
         </state>
       </provider>

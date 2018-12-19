@@ -548,7 +548,8 @@ MonoBehaviour:
   startingCubeWidth: 1
   startingCubeHeight: 1
   startingCubeDepth: 1.5
-  colorBuffer: 0.02
+  colorBuffer: 0.01
+  colorMult: 2
 --- !u!4 &773317027
 Transform:
   m_ObjectHideFlags: 0
