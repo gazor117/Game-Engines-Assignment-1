@@ -5,10 +5,14 @@ using UnityEngine;
 public class SpawnCubes : MonoBehaviour
 {
     public GameObject sampleCubePrefab;
-    private float circleAmount = 20f;
+    public float circleAmount = 20f;
     //private GameObject[] sampleCubes = new GameObject[5120];
     List<GameObject> sampleCubes = new List<GameObject>();
     public float maxScale;
+    public float startingCubeWidth;
+    public float startingCubeHeight;
+    public float startingCubeDepth;
+
     
     
     // Start is called before the first frame update
@@ -62,8 +66,11 @@ public class SpawnCubes : MonoBehaviour
     
                 if (sampleCubes != null)
                 {
-                    sampleCubes[i + (h * 512)].transform.localScale = new Vector3(0.5f, (AudioAnalise.samples[i] * maxScale) + 2, 1);
-    
+                    Vector3 localScale = sampleCubes[i + (h * 512)].transform.localScale;
+                    //localScale.y = Mathf.Lerp(localScale.y, 1 + (AudioAnalise.samples[i] * maxScale),Time.deltaTime * 3.0f);
+                    localScale = new Vector3(0.5f,  Mathf.Lerp(localScale.y, 2 + (AudioAnalise.samples[i] * maxScale) ,Time.deltaTime * 3.0f), 1);
+                    sampleCubes[i + (h * 512)].transform.localScale = localScale;
+
                 }
     
             }
